@@ -1,0 +1,95 @@
+.container{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.heroText{
+
+    padding-left:100px ;
+    max-width: 30%;
+
+}
+
+.ads{
+    display: block;
+    color: #e65830;
+    font-size: 20px;
+}
+.mainText{
+    font-size: 3.2em;
+    font-weight: bolder;
+    line-height: 2.5;
+    margin-top: -30px;
+}
+.parag{
+
+    color: #2c2c2c;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    align-items: center;
+  justify-content: center;
+  display: flex;
+    text-decoration: none;
+    background-color:#996a5d;
+    padding:10px 10px;
+    border-radius: 15px;
+    width: 33%;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+.button:last-child{
+    background-color: #fff;
+    color: #000;
+}
+.button:hover{
+    background-color: #e65830;
+}
+.heroImage{
+
+    padding-right: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    overflow-y: hidden;
+    max-height: 100%;
+
+}
+@media screen and (max-width:992px) {
+    .container{
+        padding: 30px;
+        height: 100%;
+    }
+    .heroText{
+        padding: 0;
+        max-width: 100%;
+    }
+    .mainText{
+        font-size: 2em;
+        line-height: 1;
+        margin-top: 20px;
+    }
+    .heroImage{
+        padding: 0;
+        margin-top: -30px;
+        transform: translateY(80px);
+
+
+    }
+    .imghero{
+
+        width: 100%;
+    }
+}

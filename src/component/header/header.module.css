@@ -1,0 +1,46 @@
+.container{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 100px;
+}
+.logo{
+    background-color: white;
+    padding: 15px;
+}
+.logoName{
+    color: black;
+    font-weight: bolder;
+    background-color: white;
+    letter-spacing: -5px;
+    text-wrap:nowrap;
+}
+.linkList{
+    display: flex;
+    justify-content: space-between;
+    grid-area: 5px;
+
+}
+.link{
+    list-style: none;
+    display: block;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+.link:hover{
+    cursor: pointer;
+    color: aqua;
+}
+@media screen and (max-width:992px) {
+    .container{
+        justify-content: center;
+        max-height: fit-content;
+
+    }
+    .linkList{
+        padding: 0 15px 0 0;
+    }
+}

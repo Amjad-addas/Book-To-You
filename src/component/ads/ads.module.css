@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10%;
+    padding: 8em;
+}
+.right{
+    max-width: 40%;
+}
+.title{
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+@media screen and (max-width:992px) {
+    .container{
+        padding: 30px;
+    }
+    .right{
+        max-width: 100%;
+        text-align: center;
+    }
+    .img{
+        width: 100%;
+    }
+
+}
