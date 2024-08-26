@@ -1,9 +1,10 @@
 import React from 'react'
 import style from './herobody.module.css'
 import hero from '../../images/hero-image01.png'
-function HeroBody() {
+import Btn from '../../Btn'
+function HeroBody(props) {
   return (
-    <div className={style.container}>
+    <div className={style.container} style={props.color=='true'?{backgroundColor:'white'}:{backgroundColor:'antiquewhite'}}>
         <div className={style.heroText}>
           <span className={style.ads}>
             New Release
@@ -16,7 +17,7 @@ function HeroBody() {
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
           </p>
           <div className={style.btn}>
-            <a className={style.button} href='#'>Purchase</a>
+            <Btn title="6.75 purchase" className={style.button}/>
             <a className={style.button}href='#'>read on kind</a>
           </div>
         </div>

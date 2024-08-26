@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8em;
+    align-items: center;
+
+}
+.h1{
+    font-size: 70px;
+    text-wrap: wrap;
+    font-weight: 600;
+}
