@@ -2,16 +2,17 @@ import React from 'react'
 import ShopIcon from '@mui/icons-material/Shop';
 import style from './header.module.css'
 import { Icon } from '@mui/material';
+import { Link } from 'react-router-dom';
 function Header() {
   return (
     <div className={style.container}>
         <div className={style.logo}> <h1 className={style.logoName}>mj book</h1></div>
         <div className={style.headerLinks}>
           <ul className={style.linkList}>
-            <li id = 'link'  className={style.link}><link rel='helo' href="#" /> Home</li>
-            <li id = 'link' className={style.link}><link rel='helo' href="#" />Book</li>
-            <li id = 'link' className={style.link}><link rel='helo' href="#" />Bio</li>
-            <li id = 'link' className={style.link}><link rel='helo' href="#" />Contact</li>
+            <li id = 'link'  className={style.link}><Link   className={style.link}    to='/'> Home</Link></li>
+            <li id = 'link' className={style.link}><Link   className={style.link}  to='book'>  Book</Link></li>
+            <li id = 'link' className={style.link}><Link  className={style.link} >Bio</Link> </li>
+            <li id = 'link' className={style.link}><Link  className={style.link} >Contact</Link></li>
           </ul>
         </div>
         <div className={style.cart}>

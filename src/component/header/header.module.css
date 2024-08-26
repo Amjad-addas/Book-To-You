@@ -26,6 +26,8 @@
 }
 .link{
     list-style: none;
+    text-decoration: none;
+    color: black;
     display: block;
     padding-left: 10px;
     transition: 0.3s;

@@ -1,13 +1,15 @@
 import BookScreen from './screen/BookScreen';
 import Home from './screen/Home';
-
-
-function App() {
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+ function App() {
   return (
-    <>
-       <BookScreen/>
-    </>
+    <Routes>
+    <Route path='/' element={<Home/>} />
+    <Route path='/book' element={<BookScreen/>} />
+
+  </Routes>
   );
 }
 
-export default App;
+export default App
