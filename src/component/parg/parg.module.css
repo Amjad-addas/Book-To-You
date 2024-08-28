@@ -1,0 +1,26 @@
+.pragContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #996a5d;
+    padding: 50px;
+}
+.parg{
+    width: 70%;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+}
+.name{
+    font-size: 18px;
+    color: white;
+}
+@media screen and (max-width: 992px) {
+    .parg{
+        font-size: 20px;
+        width: 100%;
+        
+    }
+}

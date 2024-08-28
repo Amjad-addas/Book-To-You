@@ -1,0 +1,23 @@
+.container{
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+.image{
+    width: 100%;
+}
+.selfContainer{
+    width: 30%;
+}
+@media screen and (max-width:992px) {
+    .container{
+        flex-direction:column  !important ;
+    }
+    .selfContainer{
+    width: 100%;
+    }
+}

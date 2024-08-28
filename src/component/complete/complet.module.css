@@ -10,3 +10,15 @@
     text-wrap: wrap;
     font-weight: 600;
 }
+@media screen and (max-width:992px) {
+    .container{
+        padding: 1.8em;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        justify-content: center;
+    }
+    .h1{
+        font-size: 40px;
+    }
+    }

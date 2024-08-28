@@ -10,9 +10,9 @@ function Header() {
         <div className={style.headerLinks}>
           <ul className={style.linkList}>
             <li id = 'link'  className={style.link}><Link   className={style.link}    to='/'> Home</Link></li>
-            <li id = 'link' className={style.link}><Link   className={style.link}  to='book'>  Book</Link></li>
-            <li id = 'link' className={style.link}><Link  className={style.link} >Bio</Link> </li>
-            <li id = 'link' className={style.link}><Link  className={style.link} >Contact</Link></li>
+            <li id = 'link' className={style.link}><Link   className={style.link}  to='/book'>  Book</Link></li>
+            <li id = 'link' className={style.link}><Link  className={style.link} to='/bio'  >Bio</Link> </li>
+            <li id = 'link' className={style.link}><Link  className={style.link} to='/contact' >Contact</Link></li>
           </ul>
         </div>
         <div className={style.cart}>

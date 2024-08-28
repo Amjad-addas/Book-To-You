@@ -1,0 +1,30 @@
+.aboutSocial{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    padding: 0;
+    align-items: center;
+}
+.icon{
+    width: 15px;
+}
+.midea{
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #996a5d;
+    transition: 0.3s;
+}
+.midea:hover{
+    cursor: pointer;
+    background-color: #e65830;
+}
+@media screen and (max-width:992px) {
+    .aboutSocial{
+        justify-content: center;
+    }
+}

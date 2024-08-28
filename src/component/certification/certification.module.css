@@ -1,0 +1,21 @@
+.awards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    width: 20%;
+}
+.time{
+    display: block;
+    font-size: large ;
+    font-weight: 800;
+}
+.prag{
+    text-align: center;
+}
+@media screen and (max-width:992px) {
+    .awards{
+        width: 100%;
+    }
+}

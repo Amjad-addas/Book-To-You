@@ -12,7 +12,10 @@ function BookScreen() {
   return (
     <div>
     <Header/>
-    <HeroBooks/>
+    <HeroBooks
+    title="Book"
+    p='Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit'
+    />
     <HeroBody color='true'/>
     <Series/>
     <Complet/>

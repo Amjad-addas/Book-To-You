@@ -2,13 +2,13 @@ import React from 'react'
 import style from './freature.module.css'
 import img1 from '../../images/featured-logo1.svg'
 import img2 from '../../images/featured-logo2.svg'
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
+
 import img3 from '../../images/featured-logo3.svg'
 import img4 from '../../images/featured-logo4.svg'
-import InstagramIcon from '@mui/icons-material/Instagram';
+
 import img5 from '../../images/featured-logo4.svg'
 import img from '../../images/about-image.png'
+import Social from '../soical/Social';
 function Feature() {
   return (
     <div className={style.container}>
@@ -41,11 +41,7 @@ function Feature() {
                 <hr className={style.hr} />
                 <span className={style.name}>Kathryn Moris</span>
                 <span className={style.aboutD}>Entrepreneur, Writer and Speaker.</span>
-                <ul className={style.aboutSocial}>
-                    <svg className={style.midea}><FacebookIcon className={style.icon}/></svg>
-                    <svg className={style.midea}><InstagramIcon className={style.icon}/></svg>
-                    <svg className={style.midea}><TwitterIcon  className={style.icon}/></svg>
-                </ul>
+                <Social/>
                 
             </div>
         </div>

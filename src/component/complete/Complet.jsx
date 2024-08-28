@@ -11,7 +11,7 @@ function Complet() {
             <p className={style.p}>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magn.</p>
             <Btn title='2400$ purchase'/>
         </div>
-        <img src={img} alt="" />
+        <img style={{width:'100%'}} src={img} alt="" />
     </div>
   )
 }
