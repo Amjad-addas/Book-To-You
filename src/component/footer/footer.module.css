@@ -31,6 +31,7 @@
     color: white;
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: none;
 }
 .link:hover{
     color: aqua;
@@ -45,7 +46,7 @@
     cursor: pointer;
 }
 .midea{
-    width: 5%;
+    width: 10%;
     color: white;
     transition: 0.3s;
 }
